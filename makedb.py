@@ -28,7 +28,7 @@ docs = loader.load()
 
 # 임베딩 모델 불러오기
 from langchain_openai import OpenAIEmbeddings
-embedding = OpenAIEmbeddings(model=os.environ['OPENAI_EMBED_MODEL'], api_key=os.environ['OPENAI_API_KEY'])
+embedding = OpenAIEmbeddings(model=os.environ['OPENAI_EMBEDDING_MODEL'], api_key=os.environ['OPENAI_API_KEY'])
 
 # pinecone -> 벡터 DB
 from langchain_pinecone import PineconeVectorStore
