@@ -17,4 +17,3 @@
     - LLM : GPT-4o-mini
 - 벡터 DB
     - Pincone(us-east1-aws, cosine metric, dimension = 1536)
-    
